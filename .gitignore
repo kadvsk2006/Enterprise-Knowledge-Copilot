@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+data/*.pdf
+!data/sample_test_file.pdf
+!data/.gitkeep
+*.faiss
+
+# uv: commit uv.lock for reproducibility, ignore caches
+.uv-cache/
